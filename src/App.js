@@ -7,6 +7,8 @@ function App() {
     <div className="App">
       <StyledEngineProvider injectFirst>
       <Header />
+      <div className='page'>
+      </div>
       </StyledEngineProvider>
     </div>
   );

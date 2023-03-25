@@ -6,17 +6,30 @@
     justify-content: center;
 }
 
-.header {
-    width: 1280px;
+.header-container {
+    width: 100%;
+    max-width: 1320px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    padding: 0 20px;
     height: 85px;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.logo {
+    flex-shrink: 0; 
 }
 
 .nav {
     height: 72px;
-    width: 822px;
+    width: auto; 
     display: flex;
     align-self: flex-end;
     justify-content: space-between;
@@ -29,6 +42,8 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+    margin: 0 20px; 
+
     &:hover {
         background-color: transparent;
     }
@@ -43,7 +58,15 @@
     width: 188px;
     border-radius: 4px;
     background-color: #646464;
+    margin-left: 32px;
+
     &:hover {
         background-color: #646464;
     }
 }
+
+// Media query for mobile view
+@media (max-width: 1170px) {
+    // Add styles for mobile view
+}
+
