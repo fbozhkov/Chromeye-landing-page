@@ -1,0 +1,60 @@
+.menu-icon{
+    height: 32px;
+    width: 32px;
+}
+
+.wrapper{
+    top: 82px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 20px;
+}
+
+.nav-button-text {
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 32px 0 32px 0;
+    border-bottom: 2px solid #EDEDED;
+
+    &:hover {
+        background-color: transparent;
+    }
+}
+
+.nav-button-last { // using &:last-child on nav-button-text doesn't work with MUI Button 
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 32px 0 32px 0;
+}
+
+.nav-button-contained {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    width: 188px;
+    height: 72px;
+    margin-bottom: 32px;
+    border-radius: 4px;
+    background-color: #646464;
+    align-self: center;
+
+    &:hover {
+        background-color: #646464;
+    }
+}

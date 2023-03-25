@@ -3,6 +3,7 @@ import styles from './header.module.scss';
 import axios from 'axios';
 import { Button } from '@mui/material';
 import { ReactComponent as Logo } from '../../assets/chromeye_logo_v1.svg'
+import HamburgerMenu from './hamburger-menu/HamburgerMenu';
 
 const Header = () => {
 
@@ -23,7 +24,7 @@ const Header = () => {
             <div className={styles['header-container']}>
                 <div className={styles['header']}>
                     <div className={styles['logo']}>
-                        <Logo />
+                        <Logo className={styles['logo-svg']} />
                     </div>
                     <div className={styles['nav']}>
                         <Button
@@ -45,6 +46,9 @@ const Header = () => {
                             className={styles['nav-button-contained']}
                             variant="contained">Get in touch</Button>
                     </div>
+                </div>
+                <div className={styles['hamburger']}>
+                    <HamburgerMenu />
                 </div>
             </div>
         </div>
