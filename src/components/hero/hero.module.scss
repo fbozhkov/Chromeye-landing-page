@@ -1,0 +1,50 @@
+@import '../../shared/palette.scss';
+
+.hero {
+    height: 714px;
+    background: $sunset-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    width: 587px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 304px;
+}
+
+.hero-text-title {
+    max-width: 511px;
+    text-align: left;
+}
+
+.hero-text-body {
+    text-align: left;
+}
+
+.hero-text-button {
+    width: 207px;
+    height: 72px;
+    background-color: $light-blue;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+}
+.hero-image {
+    width: 670px;
+    height: 500px;
+    padding-right: 20px;
+}
