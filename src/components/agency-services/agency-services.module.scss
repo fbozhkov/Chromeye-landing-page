@@ -1,0 +1,45 @@
+.agency-service {
+    width: 1320px;
+    height: 582px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content {
+    width: 1124px;
+    height: 416px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-div{
+    width:520px;
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accordion {
+    height: 100%;
+    box-shadow: none;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.image-div{
+    width: 500px;
+    height: 372px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

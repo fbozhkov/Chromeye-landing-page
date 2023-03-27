@@ -1,0 +1,56 @@
+@import '../../shared/palette.scss';
+
+.banner {
+    height: 570px;
+    background-image: url('../../assets/chromeye_assignment_desktopbgbanner_v1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container {
+    width: 900px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    width: 748px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text {
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner-text-title {
+    color: $dark-blue;
+}
+
+.banner-text-body {
+    width: 611px;
+    color: $dark-blue;
+}
+
+.banner-button {
+    width: 207px;
+    height: 72px;
+    background-color: $dark-gray;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}

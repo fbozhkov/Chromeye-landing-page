@@ -18,12 +18,22 @@ export const theme = createTheme({
             fontWeight: 700,
             lineHeight: '28px',
         },
+        subtitle1: {
+            fontSize: '24px',
+            fontWeight: 500,
+            lineHeight: '28px',
+        },
+        subtitle2: {
+            fontSize: '16px',
+            fontWeight: 500,
+            lineHeight: '24px',
+        },
         body1: {
             fontSize: '18px',
             fontWeight: 400,
             lineHeight: '24px',
         },
-        body16: {
+        body2: {
             fontSize: '16px',
             fontWeight: 400,
             lineHeight: '24px',
