@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import styles from './footer.module.scss'
 import { apiCall } from '../../apiCall';
-import { Typography, Button, IconButton } from '@mui/material';
+import { Typography, Button, IconButton, Divider } from '@mui/material';
 import { ReactComponent as Logo } from '../../assets/chromeye_logo_v1.svg'
 import  FacebookIcon  from '../../assets/Icons/facebook.png';
 import TwitterIcon from '../../assets/Icons/twitter.png';
@@ -50,7 +50,10 @@ const Footer = () => {
                             )
                         })}
                         <Typography variant="body2" className={styles['group-left-text']}>{data?.company_data.intro}</Typography>
-                    </div> 
+                    </div>
+                    <div className={styles['divider-div']}>
+                        <Divider className={styles['divider']} />
+                    </div>
                     <div className={styles['group-middle']}>
                         {middleMenuItems.map((item, index) => {
                             return (
@@ -62,6 +65,9 @@ const Footer = () => {
                                 </Button>
                             )
                         })}
+                    </div>
+                    <div className={styles['divider-div']}>
+                        <Divider className={styles['divider']} />
                     </div>
                     <div className={styles['group-right']}>
                         <div className={styles['follow-us-group']}>
@@ -81,6 +87,9 @@ const Footer = () => {
                                     <img src={LinkedinIcon} />
                                 </IconButton>
                             </div>
+                        </div>
+                        <div className={styles['divider-div']}>
+                            <Divider className={styles['divider']} />
                         </div>
                         <div className={styles['contact-group']}>
                             <Typography 
