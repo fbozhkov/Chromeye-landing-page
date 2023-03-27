@@ -135,3 +135,104 @@
     margin: 64px auto 64px auto;
     background-color: $light-blue;
 }
+
+@media (max-width: 1170px) {
+    .services {
+        min-height: 1478px;
+    }
+    .services-heading-sub-div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-icons-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-button {
+        width: 188px;
+        height: 72px;
+        background-color: $light-blue;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
+    .work {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .work-items {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .work-items-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-top-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-left-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .divider {
+        width: 100%;
+        height: 1px;
+        background-color: $light-blue;
+    }
+    .btn-read-more {
+        width: 166px;
+        height: 72px;
+        color: $solid-white;
+        background-color: $light-blue;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
+    .work-heading-sub-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .work-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .work-items-top {
+        display: flex;
+    }
+    .grid-image {
+        width: 100%;
+        height: auto;
+    }
+    .work-items-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    .work-bottom-right {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
